@@ -27,6 +27,11 @@ I could also serch using codes, so for example:
 and this will be my output:
 ![image](https://user-images.githubusercontent.com/74814824/209432784-12ad9650-56ed-4548-9080-c69beb91942e.png)
 
+I could also search using PGN:
+`".\opening_explorer_rust(1).exe" --path C:\Users\Administrator\Desktop\openings.tsv --pgn "1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6"`
+so it will look like this:
+![image](https://user-images.githubusercontent.com/74814824/209433337-4fb8416f-b6ac-4bf3-a3e3-c98ac4322ae8.png)
+
 
 There is definitely functionality to be extended such as multiple names, variable codes e.g. 30-40 e.t.c. 
 

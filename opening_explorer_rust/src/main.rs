@@ -58,13 +58,13 @@ if args.iter().position(|y| y == "--path").unwrap() <= args.len()-1
                             }
 
                         }
-                if i == "--seq"
+                if i == "--pgn"
                         {
-                            let index = args.iter().position(|y| y == "--seq").unwrap_or(args.len());
+                            let index = args.iter().position(|y| y == "--pgn").unwrap_or(args.len());
                             if index < args.len() {
                                 sequence_search = (&args[index + 1]).to_string();
                             } else {
-                                panic!("Declared --seq and not provided it.");
+                                panic!("Declared --pgn and not provided it.");
                             }
 
                         }
@@ -90,7 +90,7 @@ if args.iter().position(|y| y == "--path").unwrap() <= args.len()-1
                                 let mut print = true;
                                 if  ! code_search.is_empty()
                                     {
-                                        if code_search == code
+                                        if code.contains(&code_search)
                                                 {
 
                                                 }else
@@ -106,7 +106,7 @@ if args.iter().position(|y| y == "--path").unwrap() <= args.len()-1
                                 }
                                 if ! sequence_search.is_empty()
                                 {
-                                    if sequence_search==seq{}
+                                    if seq.contains(&sequence_search){}
                                     else{print=false;}
                                 }
                                 if print

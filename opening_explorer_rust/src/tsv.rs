@@ -39,9 +39,10 @@ impl Tsv
 
         (code, name, seq
         .trim()
-        .to_string())
+        .to_string()
+        )
 
     }
 
-    
+
 }

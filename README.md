@@ -23,7 +23,7 @@ and I will have a long string of formatted output something like this:
 
 
 I could also serch using codes, so for example:
-`.\opening_explorer_rust.exe --path "C:\Users\Administrator\Desktop\openings.tsv" --code E43'
+`.\opening_explorer_rust.exe --path "C:\Users\Administrator\Desktop\openings.tsv" --code E43`
 and this will be my output:
 ![image](https://user-images.githubusercontent.com/74814824/209432784-12ad9650-56ed-4548-9080-c69beb91942e.png)
 

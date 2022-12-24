@@ -23,3 +23,6 @@ and I will have a long string of formatted output something like this:
 
 There is definitely functionality to be extended such as multiple names, variable codes e.g. 30-40 e.t.c. 
 
+
+# Compilation
+You can compile using `cargo build` and you can run using `cargo run`. You can also just use the binaries provided in Releases

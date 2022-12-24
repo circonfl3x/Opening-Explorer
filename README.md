@@ -6,7 +6,7 @@ A program that reads chess .tsv files and can browse them and search them
 As of now, it uses command line flags to run any specific search or link to a .tsv file exactly...
 Syntax:
 
-`--path {filepath}` → points to the specific path of the tsv file **In Windows, it has to be the full filepath, and with forward slashes, not backward ones e.g. `C:/../../blahblahblah.tsv`**
+`--path {filepath}` → points to the specific path of the tsv file **In Windows, it has to be the full filepath, and with forward slashes, not backward ones (though it can do with backwards in certain cases e.g. in CMD) e.g. `C:/../../blahblahblah.tsv`**
 
 `--code {code}` → searches for a specific code in the tsv file e.g. `--code E00`
 
